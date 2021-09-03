@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title>javascipt</title>
+		
+		<script>
+		
+			var varArr1 = new Array();
+			console.log("var varArr1 :" + typeof varArr1);
+			varArr1[0] = "a";
+			var varArr2 = new Array(5);
+			console.log("var varArr2 :" + typeof varArr2);
+			var varArr3 = new Array(123, "abc", true);
+			console.log("var varArr3 :" + typeof varArr3);
+			var varArr4 = new Array(true, {});
+			console.log("var varArrl :" + typeof varArr4);
+			
+			var varArrTemp = new Array();
+			console.log("var varArr3.length :" + varArr3.length);
+			console.log("var varArrl.indexOf :" + varArr3.indexOf(123));
+			var varArr3A = new Array();
+			var varArr3A = varArr2.concat(varArr3)
+			console.log("var varArrl.concat :" + varArr3A);
+			console.log("var varArrl.join :" + varArr3.join("|"));
+			
+			console.log("var varArrl.sort :" + varArr3.sort());
+			console.log("var varArrl.reverse :" + varArr3.reverse());
+		
+			console.log("var varArrl.push :" + varArr3.push("AAa", "ASA"));
+			console.log("var varArrl.push :" + varArr3);
+			
+			console.log("var varArrl.shift :" + varArr3.shift(1213));
+			console.log("var varArrl.shift:" + varArr3);
+			
+		
+			
+			console.log("var varArrl.unshift :" + varArr3);
+			
+		</script>
+		
+	</head>
+	
+	<body>
+	</body>
+	
+</html>
