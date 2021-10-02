@@ -56,10 +56,10 @@ body {
 #quote{
     width: 2000px;
     color: white;
-    font-size: 25px;
+    font-size: 15px;
     position: absolute;
     bottom: 5%;
-    left: 25%;
+    left: 40%;
     right: 25%;
     font-weight: bold;
 }
