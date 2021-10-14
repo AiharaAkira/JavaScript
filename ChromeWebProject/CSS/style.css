@@ -118,3 +118,16 @@ button {
     color: white;
 }
 
+input{
+    background-color: inherit;
+    border-radius: 5px;
+    color: aliceblue;
+   
+}
+
+input:hover{
+    
+    font-size: 18px;
+    transition: font-size 0.3s ease-in;
+}
+
