@@ -22,7 +22,8 @@ body {
 }
 
 .bgImage{
-    position: absolute;
+    position: fixed;
+    right: 0;
     top: 0;
     left: 0;
     width: 100%;
@@ -57,9 +58,7 @@ body {
    
     color: rgb(118, 121, 122);
     font-size: 15px;
-    position: absolute;
-    bottom: 5%;
-    left: 25%;
+    height: auto; width: 98%;
     
     font-weight: bold;
 }
@@ -112,7 +111,7 @@ button {
 #weather{
    
     
-    position:fixed;
+    
     left: 10;
     top: 0;
     font-size: 20px;
